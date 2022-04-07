@@ -1,6 +1,6 @@
 import { Row,Col,Card,CardBody} from 'reactstrap';
 import futureOpen from "../../assets/images/the future is open.svg" 
-import eventBanner from "../../assets/images/osca summit banner.jpeg"
+//import eventBanner from "../../assets/images/osca summit banner.jpeg"
 import audiencePic from "../../assets/images/audience.jpg" 
 import stagePic from "../../assets/images/stage.jpg"
 import malingaPic from "../../assets/images/malinga speaker.jpeg"
