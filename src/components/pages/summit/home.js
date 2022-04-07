@@ -1,4 +1,4 @@
-import { Row,Col,Card,CardBody,CardImg,CardTitle,CardText,CardColumns} from 'reactstrap';
+import { Row,Col,Card,CardBody} from 'reactstrap';
 import futureOpen from "../../assets/images/the future is open.svg" 
 import eventBanner from "../../assets/images/osca summit banner.jpeg"
 import audiencePic from "../../assets/images/audience.jpg" 
