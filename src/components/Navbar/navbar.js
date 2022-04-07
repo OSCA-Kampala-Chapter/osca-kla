@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 import { Nav,Navbar,NavbarBrand,NavItem,NavLink,NavbarToggler,Collapse} from 'reactstrap';
 import logo from "../assets/images/osca-logo.png"
 
@@ -30,37 +31,40 @@ export const NavbarSection=()=>{
               className="me-auto"
                 navbar
               >
+
                 <NavItem>
-                  <NavLink href="/about" className='text-light' >
+                  <NavLink tag={Link} to="/about" className='text-light' >
                     About
                   </NavLink>
                 </NavItem>
               
-               
+
                 <NavItem>
-                  <NavLink href="/speakers" className='text-light' >
+                  <NavLink tag={Link} to="/speakers" className='text-light' >
                     Speakers
                   </NavLink>
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="/schedule" className='text-light' >
+                  <NavLink tag={Link} to="/schedule" className='text-light' >
                   Schedule
                   </NavLink>
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="/travel" className='text-light' >
+                  <NavLink tag={Link} to="/travel" className='text-light' >
                   Travel
                   </NavLink>
                 </NavItem>
+
                 <NavItem>
-                  <NavLink href="/register" className='text-light' >
+                  <NavLink tag={Link} to="/register" className='text-light' >
                   Register
                   </NavLink>
                 </NavItem>
+
                 <NavItem>
-                  <NavLink href="/sustainAfrica" className='text-light' >
+                  <NavLink tag={Link} to="/sustainAfrica" className='text-light' >
                   Sustain Africa
                   </NavLink>
                 </NavItem>
